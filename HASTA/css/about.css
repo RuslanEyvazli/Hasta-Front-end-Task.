@@ -1,0 +1,764 @@
+.backgroundorange{
+    background: #fd602c
+}
+.backgroundBlack{
+    background: black;
+}
+.colororange{
+    color: #fd602c;
+}
+.colorgray{
+    color: #8d8c8c;
+}
+.backgroundGray{
+    background-color: #f6f6f6;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-top ul{
+    display: flex;
+    margin: 0;
+
+}
+.header-top p{
+    color: white;
+}
+.header-top ul li{
+    padding: 0px 8px;
+}
+.header-top ul li a{
+    color: #8d8c8c;
+    transition: all 0.2s;
+}
+.header-top ul li a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top ul li a i{
+    font-size: 14px;
+    color: #8d8c8c;
+    transition: all .3s ease-in-out;
+}
+.header-top ul li a i:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top p{
+    margin: 0;
+    color: #8d8c8c;
+}
+.border-bottom{
+    border-bottom: 1px solid #efefef
+}
+
+#register{
+    border-left: 1px solid #8d8c8c;;
+    border-right: 1px solid  #8d8c8c;;
+
+}
+#login a{
+    text-decoration-color: 1px solid white;
+}
+.logo{
+    height: 80px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 53%;
+    width: 100%;
+    cursor: pointer;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bottom ul{
+    display: flex;
+    padding-right: 15px;
+    margin: 0;
+}
+.header-bottom ul li{
+    padding: 0px 10px;
+}
+.header-bottom ul li a{
+    color: #777;
+}
+.header-bottom ul li a:hover{
+    color: #fd602c;
+    text-decoration: none;
+}
+.navIcon{
+    color: #5a5959;
+    font-size: 20px;
+    display: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+      background-color: #f1f1f1
+}
+  
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.weAreHasta{
+    height: 250px;
+    background-image: url(../img/header-img.jpg);
+   
+  background-size: cover;
+}
+.weAreHasta div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weAreHasta div h3{
+    color: white;
+    margin: 0;
+  
+   font-weight: 700
+}
+.weAreHasta div h6{
+  font-size: 18px;
+    margin: 0;
+    color: white;
+    line-height: 37px;
+}
+.aboutStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.aboutStyle h3{
+    font-weight: normal;
+}
+.aboutStyle ul{
+    display: flex;
+    margin: 0;
+    
+}
+.aboutStyle ul li a{
+    color: #161616;
+    text-decoration: none;
+}
+
+.aboutUs{
+   
+    display: flex;
+   justify-content: center;
+   padding: 60px 0px;
+}
+.aboutUs div{
+    width: 46%;
+    text-align: center;
+
+}
+.aboutUs div p{
+    color: #8d8c8c;
+    margin-top: 10px;
+}
+.aboutUs div p span{
+    color: #fd602c
+}
+.multipurpose{
+    
+    margin-bottom: 80px;
+
+}
+.multipurpose div{
+    height: 100%;
+    width: 48%;
+}
+.multipurpose div:last-child{
+    margin-left: 3%;
+}
+.multipurpose div img{
+    width: 100%;
+    height: 100%;
+}
+.multipurpose div h4{
+    color: #fd602c;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.multipurpose div p{
+    color: #8d8c8c;
+    font: 15px 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+    line-height: 22px;
+}
+.multipurpose div button{
+    background: #fd602c;
+    color: white;
+    border: none;
+    padding: 8px 30px;
+    margin-top: 20px;
+}
+.parallax{
+    height: 400px;
+    background-image: url(../img/parallax-bg12.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.parallaxoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.808);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.parallaxoverlay div{
+    width: 55%;
+}
+.parallax div p{
+    color: white;
+    margin: 0;
+   
+    font-size: 16px;
+}
+.parallax div p span{
+    color: #fd602c;
+}
+.parallax div h1{
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    line-height: 90px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.parallax div button{
+    height: 42px;
+    width: 124px;
+   
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top: 40px;
+    
+ }
+ .parallax div button:hover{
+    background: white;
+    color: #161616;
+}
+.accordion{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background: white;
+    margin-bottom: 10px;
+    transition: all .4s ease-in-out;
+}
+.accordion i:first-child{
+    padding:0px 10px;
+    font-size: 20px;
+}
+.accordion p{
+    margin: 0;
+    padding-left: 10px;
+    font-weight: 400
+}
+.panel p{
+    font-size: 14px;
+    padding: 16px 15px 16px 17px;
+    color: #777;
+    
+}
+.panel{
+    display: none;
+    overflow: hidden;
+}
+.ourSkills{
+    width: 100%;
+    height: 37px;
+    background: white;
+    margin-bottom: 29px;
+}
+.ourSkills div{
+    height: 100%;
+    background: #fd602c;
+    display: flex;
+    align-items: center;
+}
+.ourSkills div p{
+    margin: 0;
+    padding-left: 20px;
+    color: white;
+}
+.firstSkill{
+    width: 80%;
+    
+}
+.secondSkill{
+    width: 90%;
+}
+.thirdSkill{
+    width: 70%;
+}
+.fourthSkill{
+    width: 75%;
+}
+.clientSlide{
+    width: 100%;
+    height: 310px;
+    
+   
+    margin-top: 47px;
+}
+/* .clientSlide div:first-child{
+   
+    overflow: hidden;
+} */
+ .clientSlideAlo{
+    width: 100%;
+     height: 260px;
+     position: relative;
+     overflow: hidden;
+     
+    
+}
+.clientSlide1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:-100%;
+    transition: all .6s ease-in-out;
+}
+.clientSlide2{
+    width: 100%;
+    height: 100%;
+   position: absolute;
+    top: 0;
+    left:100%;
+    transition: all .6s ease-in-out;
+}
+
+.clientSlide1Top{
+    width: 100%;
+    height: 100px;
+    background: white;
+}
+
+.clientSlide1Top p{
+    font-size: 14px;
+    color: #8d8c8c;
+    padding:17px 15px;
+    margin: 0;
+}
+
+.clientSlide1Bottom{
+    height: 160px;
+    width: 100%;
+    display: flex;
+}
+
+.clientSlide1BottomLeft{
+    box-sizing: border-box;
+    width: 37%;
+    border: 9px solid #fd602c;
+    border-radius: 100%;
+    height: 100%;
+    
+}
+
+.clientSlide1BottomLeft img{
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.clientSlide1BottomRight{
+    width: 58%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+    
+
+
+}
+
+
+.clientSliderClick{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.clientSliderClick .click1{
+    width: 3%;
+    height: 30%;
+    background: #727272;
+    border-radius: 100%;
+}
+.clientSliderClick .click2{
+    width: 3%;
+    height: 30%;
+    background: #333;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+.clientSliderClick span:hover{
+    background: #727272;
+}
+.active1{
+    left: 0;
+}
+.active2{
+    left: 0;
+}
+.threeImage{
+    height: 533px;
+    position: relative;
+    overflow: hidden;
+}
+.threeimgDiv{
+  width: 96%;
+  height: 400px;
+  position: absolute;
+  top: 0;
+  overflow: hidden;
+
+}
+
+.threeimgDiv img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out
+}
+.threeImageBottom{
+    
+   
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+     padding: 0px 10px;
+     padding-top: 30px;
+     position: absolute;
+     top: 400px;
+    background: white;
+    transition: all .3s ease-in-out;
+}
+.threeImageBottom p{
+    color: #727272;
+    margin-top: 20px;
+}
+.threeImage:hover img{
+    transform: scale(1.1, 1.1)
+}
+.threeImage:hover .threeImageBottom{
+    top: 250px;
+}
+
+.footLine{
+    width: 10%;
+    height: 3px;
+    background: white;
+}
+.footerFirstCol p{
+    color: #727272;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footerFirstCol ul li{
+    color: #727272;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.footerFirstCol ul li span{
+    margin-left: 8px;
+}
+#logo{
+    padding-bottom: 12px;
+}
+.footLine{
+    width: 10%;
+    height: 3px;
+    background: white;
+}
+.footerSecondCol h3{
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footerSecondColImg div:first-child{
+    width: 33%;
+    height: 100%;
+    
+}
+.footerSecondColImg div img{
+    width: 90%;
+    height: 75%;
+    border-radius: 100%;
+
+}
+.footerSecondColImg div:last-child{
+    width: 63%;
+    height: 100%;
+}
+.footerSecondColImg div:last-child h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg div:last-child p{
+    color: #727272;
+    margin: 0;
+}
+.footerSecondColImg div:last-child small{
+    color: #727272;
+}
+.footerSecondColImg1{
+    border-bottom: 1px solid #727272;
+    margin-top: 40px;
+}
+.footerSecondColImg2{
+    margin-top: 20px;
+}
+.footerThirdColTop h3{
+    color: white;
+    font-weight: 400;
+}
+.footerThirdCol{
+    width: 100%;
+    height: 35px;
+    display: flex
+}
+footer button{
+    color: #727272;
+    border: 1px solid #727272;
+    background: black;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+footer button:hover{
+    border: 1px solid #fd602c;
+    color: #fd602c
+}
+.animationButton{
+    width: 40%;
+}
+.artButton{
+    width: 21%;
+    margin-left: 10px;
+}
+.photoButton{
+    width: 47%;
+    
+}
+.designButton{
+    width: 35%;
+    margin-left: 10px;
+    border: 1px solid #fd602c;
+    color: #fd602c;
+}
+.resposiveButton{
+    width: 42%;
+    
+}
+.developButton{
+    width: 38%;
+    margin-left: 10px;
+   
+}
+.brandingButton{
+    width: 38%;
+}
+.cleanButton{
+    width: 34%;
+    margin-left: 10px;
+}
+.footerFourthCol h3{
+    color: white;
+    font-weight: 400;
+}
+.footerFourthCol ul{
+    margin-top: 35px;
+}
+.footerFourthCol ul li{
+    padding-bottom: 10px;
+}
+.footerFourthCol ul li a{
+    color: #727272;
+    padding-left: 5px;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+}
+.footerFourthCol ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerPadding{
+    padding-top:70px;
+    padding-bottom: 30px;
+}
+.footerBottomBg{
+    background-color: #1a1a1a;
+}
+.footerIcon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footerIcon div{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.footerIcon div i {
+    transition: all .2s ease-in-out;
+}
+.footerIcon div:hover{
+    background: #fd602c;
+   
+}
+.footerIcon div:hover i{
+    color: white;
+}
+.footbottomRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footBasket{
+    background: #fd602c !important;
+}
+.footBasket i{
+    color: white;
+}
+.footbottomRow p{
+    margin-top: 60px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+@media screen and (max-width:1300px){
+    .multipurpose div h4{
+        font-size: 18px;
+    }
+    .multipurpose div p{
+        font-size: 11px;
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:1000px){
+    .multipurpose div h4{
+        font-size: 15px;
+    }
+    .multipurpose div p{
+        font-size: 10px;
+        margin-bottom: 9px;
+    }
+    .parallax div h1{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .parallax div button{
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-bottom ul {
+        display: none;
+    }
+    .navIcon{
+        display: block;
+    }
+    .multipurpose div{
+        width: 100%;
+    }
+    .parallax div h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .parallax div p{
+        font-size: 11px;
+        
+    }
+    .parallax div button{
+        margin-top: 20px;
+    }
+    .footerIcon{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 525px){
+    .parallax div h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .parallax div p{
+        font-size: 8px;
+        
+    }
+    .parallax div button{
+        margin-top: 10px;
+    }
+}
+
+
+
+  

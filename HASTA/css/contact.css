@@ -1,0 +1,534 @@
+.backgroundorange{
+    background: #fd602c
+}
+.backgroundBlack{
+    background: black;
+}
+.colororange{
+    color: #fd602c;
+}
+.colorgray{
+    color: #8d8c8c;
+}
+.backgroundGray{
+    background-color: #f6f6f6;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-top ul{
+    display: flex;
+    margin: 0;
+
+}
+.header-top p{
+    color: white;
+}
+.header-top ul li{
+    padding: 0px 8px;
+}
+.header-top ul li a{
+    color: #8d8c8c;
+    transition: all 0.2s;
+}
+.header-top ul li a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top ul li a i{
+    font-size: 14px;
+    color: #8d8c8c;
+    transition: all .3s ease-in-out;
+}
+.header-top ul li a i:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top p{
+    margin: 0;
+    color: #8d8c8c;
+}
+.border-bottom{
+    border-bottom: 1px solid #efefef
+}
+
+#register{
+    border-left: 1px solid #8d8c8c;;
+    border-right: 1px solid  #8d8c8c;;
+
+}
+#login a{
+    text-decoration-color: 1px solid white;
+}
+.logo{
+    height: 80px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 53%;
+    width: 100%;
+    cursor: pointer;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bottom ul{
+    display: flex;
+    padding-right: 15px;
+    margin: 0;
+}
+.header-bottom ul li{
+    padding: 0px 10px;
+}
+.header-bottom ul li a{
+    color: #777;
+}
+.header-bottom ul li a:hover{
+    color: #fd602c;
+    text-decoration: none;
+}
+.navIcon{
+    color: #5a5959;
+    font-size: 20px;
+    display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+      background-color: #f1f1f1
+}
+  
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.weAreHasta{
+    height: 250px;
+    background-image: url(../img/header-img.jpg);
+   
+  background-size: cover;
+}
+.weAreHasta div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weAreHasta div h3{
+    color: white;
+    margin: 0;
+  
+   font-weight: 700
+}
+.weAreHasta div h6{
+  font-size: 18px;
+    margin: 0;
+    color: white;
+    line-height: 37px;
+}
+.aboutStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.aboutStyle h3{
+    font-weight: normal;
+}
+.aboutStyle ul{
+    display: flex;
+    margin: 0;
+    
+}
+.aboutStyle ul li a{
+    color: #161616;
+    text-decoration: none;
+}
+.mapoute{
+    position: relative;
+}
+.infoFirstDiv{
+    margin-top: 15px;
+}
+.infoFirstDiv p{
+    margin: 0;
+    color: #8d8c8c;
+}
+.infoSecondDiv{
+    margin-top: 20px;
+}
+.infoSecondDiv p{
+    margin: 0;
+    color: #8d8c8c;
+
+}
+.Address h4{
+    font-weight: 400;
+}
+.findAddress h4{
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.formDiv{
+    width: 100%;
+    margin: 20px 0px;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.formDiv i{
+    position: absolute;
+    top: 34%;
+    left: 3%;
+    color: #bbb;;
+}
+.formDiv input{
+    width: 100%;
+    padding-left: 50px;
+    height: 100%;
+    border: 1px solid #ddd;
+    transition: all .3s ease-in-out;
+
+}
+textarea{
+    border: 1px solid #ddd;
+    padding-left: 50px;
+    transition: all .3s ease-in-out;
+    height: 100px;;
+}
+input:hover{
+    border: 1px solid #6BC868;
+}
+input:focus{
+    border: 1px solid #4EBD4A;
+   
+    box-shadow: 0px 0px 3px #4EBD4A inset;
+    outline: none;
+}
+ input::placeholder{
+    color: #bbb;
+}
+.textareaDiv:hover textarea{
+    border: 1px solid #6BC868;
+}
+.textareaDiv:hover div{
+    border: 1px solid #6BC868;
+}
+textarea:focus{
+    border: 1px solid #4EBD4A;
+   
+    box-shadow: 0px 0px 3px #4EBD4A inset;
+    outline: none;
+}
+textarea::placeholder{
+    color: #bbb;
+}
+.textareaDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.textareaDiv textarea{
+    transition: all .3s ease-in-out;
+}
+.textareaDiv i{
+    position: absolute;
+    top:3%;
+    left: 3%;
+    color: #bbb;;
+}
+.textareaDiv div{
+    width: 100%;
+    height: 20px;
+    background: rgb(241, 240, 240);
+   height: 35px;;
+   border: 1px solid #ddd;
+   border-top: none;
+   padding-left: 10px
+}
+.textareaDiv div small{
+    color: #777;
+}
+.textareaDiv:focus-within textarea{
+    height: 140px;;
+}
+.submitDiv{
+    margin-top: 20px;
+}
+.submitDiv input{
+    background: #fd602c;
+    color: white;
+    border: none;
+    padding: 8px 45px;
+    transition: all .3s ease-in-out;
+}
+.submitDiv input:hover{
+    background: #161616;
+
+}
+.submitDiv button{
+    
+    border: none;
+    padding: 8px 45px;
+} 
+.contactLeft h3{
+    font-weight: 400;
+}
+.contactLeft p{
+    line-height: 19px;
+    font-size: 14px;
+    color: #777;
+    margin: 30px 0px;
+}
+.footerFirstCol p{
+    color: #727272;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footerFirstCol ul li{
+    color: #727272;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.footerFirstCol ul li span{
+    margin-left: 8px;
+}
+#logo{
+    padding-bottom: 12px;
+}
+.footLine{
+    width: 10%;
+    height: 3px;
+    background: white;
+}
+.footerSecondCol h3{
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footerSecondColImg div:first-child{
+    width: 33%;
+    height: 100%;
+    
+}
+.footerSecondColImg div img{
+    width: 90%;
+    height: 75%;
+    border-radius: 100%;
+
+}
+.footerSecondColImg div:last-child{
+    width: 63%;
+    height: 100%;
+}
+.footerSecondColImg div:last-child h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg div:last-child p{
+    color: #727272;
+    margin: 0;
+}
+.footerSecondColImg div:last-child small{
+    color: #727272;
+}
+.footerSecondColImg1{
+    border-bottom: 1px solid #727272;
+    margin-top: 40px;
+}
+.footerSecondColImg2{
+    margin-top: 20px;
+}
+.footerThirdColTop h3{
+    color: white;
+    font-weight: 400;
+}
+.footerThirdCol{
+    width: 100%;
+    height: 35px;
+    display: flex
+}
+footer button{
+    color: #727272;
+    border: 1px solid #727272;
+    background: black;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+footer button:hover{
+    border: 1px solid #fd602c;
+    color: #fd602c
+}
+.animationButton{
+    width: 40%;
+}
+.artButton{
+    width: 21%;
+    margin-left: 10px;
+}
+.photoButton{
+    width: 47%;
+    
+}
+.designButton{
+    width: 35%;
+    margin-left: 10px;
+    border: 1px solid #fd602c;
+    color: #fd602c;
+}
+.resposiveButton{
+    width: 42%;
+    
+}
+.developButton{
+    width: 38%;
+    margin-left: 10px;
+   
+}
+.brandingButton{
+    width: 38%;
+}
+.cleanButton{
+    width: 34%;
+    margin-left: 10px;
+}
+.footerFourthCol h3{
+    color: white;
+    font-weight: 400;
+}
+.footerFourthCol ul{
+    margin-top: 35px;
+}
+.footerFourthCol ul li{
+    padding-bottom: 10px;
+}
+.footerFourthCol ul li a{
+    color: #727272;
+    padding-left: 5px;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+}
+.footerFourthCol ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerPadding{
+    padding-top:70px;
+    padding-bottom: 30px;
+}
+.footerBottomBg{
+    background-color: #1a1a1a;
+}
+.footerIcon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footerIcon div{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.footerIcon div i {
+    transition: all .2s ease-in-out;
+}
+.footerIcon div:hover{
+    background: #fd602c;
+   
+}
+.footerIcon div:hover i{
+    color: white;
+}
+.footbottomRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footBasket{
+    background: #fd602c !important;
+}
+.footBasket i{
+    color: white;
+}
+.footbottomRow p{
+    margin-top: 60px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+@media screen and (max-width: 768px){
+    .header-bottom ul {
+        display: none;
+    }
+    .navIcon{
+        display: block;
+    }
+    .footerIcon{
+        width: 60%;
+    }
+    .contactRight{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+ 

@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+
+        <nav>
+           <div class="container-fluid border-bottom">
+               <div class="container header-top-container">
+                   <div class="row  header-top py-3">
+                        <p >Customer Care <span class="ml-3">(888) 123-4567</span></p>
+                        <ul>
+                            <li id="login">
+                                <a href="#">Login</a>
+                            </li>
+                            <li id="register">
+                                <a href="#">Register</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-invision"></i></a>
+                            </li>
+                        </ul>
+                   </div>
+               </div>
+           </div>
+           <div class="container-fluid header-bottom-container "  onscroll="scroll()">
+                <div class="container">
+                        <div class="row header-bottom">
+                            <div class="logo">
+                                <img src="img/logo.png" alt="">
+                            </div>
+                            <ul>
+                                <li class="dropdown">
+                                    <a href="home.html" class="dropbtn">HOME</a>
+                                    <div class="dropdown-content">
+                                        <a href="service.html">Services</a>
+                                        <a href="careers.html">Careers</a>
+                                        <a href="faq.html">FAQ</a>
+                                    </div>
+                                </li>
+                                <li class="dropdown">
+                                        <a href="about.html" class="dropbtn">ABOUT US</a>
+                                        <div class="dropdown-content">
+                                            <a href="registration.html">Register</a>
+                                            <a href="portfolio.html">Portfolio</a>
+                                           
+                                        </div>
+                                </li>
+                                <li class="dropdown">
+                                        <a href="team.html" class="dropbtn">TEAM</a>
+                                        <div class="dropdown-content">
+                                            <a href="blog.html">Blog</a>
+                                            <a href="contact.html">Contact</a>
+                                            
+                                        </div>
+                                </li>
+                            </ul>  
+                            <i class="fas fa-bars navIcon"></i>  
+                        </div>
+                </div>
+           </div>
+        </nav>
+
+
+    </header>
+    <main>
+        <section class="container-fluid ">
+            <div class="row weAreHasta">
+                <div>
+                        <h3>WE ARE HASTA</h3>
+                    <h6>GET MANY MORE FEATURES</h6>
+                    
+                
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid border-bottom ">
+            <div class="row">
+                <div class="container">
+                    <div class="row aboutStyle">
+                        <h3>About Style 2</h3>
+                        <ul>
+                            <li><a href="#">Home</a> / </li>
+                            <li><a href="#"> Pages</a> / </li>
+                            <li class="text-secondary"> About Style 2</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="row py-5">
+                <div class="col-12 col-md-8 contactLeft">
+                    <div class="col-12">
+                        <h3>Contact Form</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Suspendisse et justo. Praesent mattis commodo augue. Aliquam ornare hendrerit consectetuer adipiscing elit. Suspendisse et justo. augue.
+
+                        </p>
+                    </div>
+                    <form action="" class="col-12" name="myForm" onsubmit="return myValidation()">
+                        <div class="formDiv">
+                                <input type="text" name="name" placeholder="Enter name">
+                                <i class="fas fa-user"></i>
+                        </div>
+                        <div class="formDiv">
+                                <input type="email" placeholder="Email address">
+                                <i class="fas fa-envelope"></i>
+                        </div>
+                       
+                        <div class="formDiv">
+                                <input type="text" name="number" placeholder="Telephone">
+                                <i class="fas fa-phone-square"></i>
+                        </div>
+                        <div class="formDiv">
+                                <input type="text" name="subject" placeholder="Enter subject">
+                                <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <div class="textareaDiv">
+                            <textarea name="" id="" cols="88"  placeholder="Enter message"></textarea>
+                            <i class="far fa-comments"></i>
+                            <div>
+                                <small><strong>Hint</strong>: Please enter between 80 - 300 characters.</small>
+                            </div>
+                        </div>
+                        <div class="submitDiv">
+                                <input type="submit" value="Submit">
+                                <button>Cancel</button>
+                        </div>
+                     
+                    </form>
+                </div>
+                <div class="col-12 col-md-4 contactRight">
+                    <div class="row mt-2 ">
+                        <div class="col-12 Address">
+                            <h4>
+                                Address Info
+                            </h4>
+                        </div>
+                        <div class="col-12 infoFirstDiv">
+                            <p>No.28 - 63739 street lorem ipsum City, Country </p>
+                            <p>Telephone: +1 1234-567-89000</p>
+                            <p>FAX: +1 0123-4567-8900</p>
+                        </div>
+                        <div class="col-12 infoSecondDiv">
+                            <p>E-mail: mail@companyname.com</p>
+                            <p>Website: www.yoursitename.com</p>
+                        </div>
+                        <div class="col-12 findAddress">
+                            <h4>Find the Address</h4>
+                        </div>
+                        <div class="mapoute col-12">
+                            <div class="gmap_canvas">
+                                    <iframe width="100%" height="280" id="gmap_canvas" src="https://maps.google.com/maps?q=code%20academy&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            </div>  
+                            
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+  </main>
+  <footer>
+        <div class="container-fluid backgroundBlack">
+            <div class="row">
+                    <div class="container">
+                            <div class="row footerPadding">
+                                <div class="col-12 col-sm-6 col-md-3 footerFirstCol">
+                                    <img src="img/footer-logo.png" id="logo">
+                                    <p>Address: No.28 - 63739 street lorem ipsum City, Country</p>
+                                    <ul>
+                                        <li><i class="fas fa-home"></i><span>Phone: + 1 (234) 567 8901</span></li>
+                                        <li><i class="fas fa-phone"></i><span>Phone: + 1 (234) 567 8901</span></li>
+                                        <li><i class="fas fa-fax"></i><span>Fax: + 1 (234) 567 8901</span></li>
+                                        <li><i class="far fa-envelope"></i><span>Email: support@yoursite.com</span></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 footerSecondCol">
+                                    <h3 >RECENT POSTS</h3>
+                                    <div class="footLine"></div>
+                                    <div class="footerSecondColImg footerSecondColImg1">
+                                        <div><img src="img/site-img16.jpg" alt=""></div>
+                                        <div>
+                                            <h5>Clean And Modern</h5>
+                                            <p>Lorem ipsum dolor sit</p>
+                                            <small>By John DoeMay 15</small>
+                                        </div>
+                                    </div>
+                                    <div class="footerSecondColImg footerSecondColImg2">
+                                            <div><img src="img/site-img17.jpg" alt=""></div>
+                                            <div>
+                                                <h5>Clean And Modern</h5>
+                                                <p>Lorem ipsum dolor sit</p>
+                                                <small>By John DoeMay 15</small>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3footerThirdColTop">
+                                        <h3>TAGS</h3>
+                                        <div class="footLine"></div>
+                                        <div class="footerThirdCol mt-5">
+                                            <button class="animationButton">Animation</button>
+                                            <button class="artButton">Art</button>
+                                        </div>
+                                        <div  class="footerThirdCol mt-2">
+                                                <button class="photoButton">Photography</button>
+                                                <button class="designButton">Design</button>
+                                        </div>
+                                        <div class="footerThirdCol mt-2">
+                                                <button class="resposiveButton">Responsive</button>
+                                                <button class="developButton">Develop</button>
+                                        </div>
+                                        <div  class="footerThirdCol mt-2">
+                                                <button class="brandingButton">Branding</button>
+                                                <button class="cleanButton">Clean</button>
+                                        </div>
+                                </div>
+                                <div class="col-12 col-sm-6 col-md-3 footerFourthCol">
+                                        <h3>USEFUL LINKS</h3>
+                                        <div class="footLine"></div>
+                                        <ul>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Placerat bibendum</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Ullamcorper odio nec turpis</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Aliquam porttitor vestibulum ipsum</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Lobortis enim nec nisi</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Placerat bibendum</a></li>
+                                            <li><i class="fas fa-angle-right"></i><a href="#"> Lobortis enim nec nisi</a></li>
+                                        </ul>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+        </div>
+        <div class="container-fluid footerBottomBg">
+            <div class="row">
+                <div class="container">
+                    <div class="row footbottomRow">
+                       <div class="footerIcon">
+                        <div><i class="fab fa-twitter colororange"></i></div>
+                        <div><i class="fab fa-twitter colororange"></i></div>
+                        <div><i class="fab fa-google-plus-g colororange"></i></div>
+                        <div><i class="fab fa-invision colororange"></i></div>
+                        <div class="backgroundorange footBasket"><i class="fas fa-basketball-ball"></i></div>
+                        <div><i class="fab fa-wordpress colororange"></i></div>
+                        <div><i class="fab fa-android colororange"></i></div>
+                       </div> 
+                       <p>Copyright © 2015 l yourdomain.com. All rights reserved.</p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/appContact.js"></script>
+  </body>
+  </html>      

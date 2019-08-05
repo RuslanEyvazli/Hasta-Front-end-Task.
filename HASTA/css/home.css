@@ -1,0 +1,1381 @@
+.backgroundorange{
+    background: #fd602c
+}
+.backgroundBlack{
+    background: black;
+}
+.colororange{
+    color: #fd602c;
+}
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-top ul{
+    display: flex;
+    margin: 0;
+
+}
+.header-top p{
+    color: white;
+}
+.header-top ul li{
+    padding: 0px 8px;
+}
+.header-top ul li a{
+    color: white;
+    transition: all 0.2s;
+}
+.header-top ul li a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top ul li a i{
+    font-size: 14px;
+    transition: all .3s ease-in-out
+}
+.header-top ul li a i:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top p{
+    margin: 0
+}
+
+#register{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+
+}
+#login a{
+    text-decoration-color: 1px solid white;
+}
+.logo{
+    height: 80px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 53%;
+    width: 100%;
+    cursor: pointer;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header-bottom ul{
+    display: flex;
+    
+    padding-right: 15px;
+    margin: 0;
+    
+}
+.header-bottom ul li{
+    padding: 0px 10px;
+   
+    
+}
+.navIcon{
+    color: #5a5959;
+    font-size: 20px;
+    display: none;
+}
+.header-bottom ul li a{
+    color: #777;
+}
+.header-bottom ul li a:hover{
+    color: #fd602c;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+      background-color: #f1f1f1
+}
+  
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    background: #fff;
+    z-index: 111;
+}
+  
+.slider {
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 600px;
+    width: 100%;
+  overflow: hidden;
+   display: flex;
+   padding: 0px;
+   margin: 0px;
+} 
+.slider-container {
+     display: flex;
+    height: 600px;
+    width: 103% !important;
+}
+.slider-item {
+    width: 100% !important;
+    height: 600px;
+     display: flex;
+     position: relative;
+       align-items: center;
+    justify-content: center;  
+}
+.slider-img {
+    width:1530px;
+    height: 600px;
+    
+}
+.slider .slider-button{
+    position: absolute;
+    top: 50%;
+    z-index: 20;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    cursor: pointer;
+    outline-style: none;
+}
+.slider .slider-button.slider-button-left{
+    left: 10px;
+}
+.slider .slider-button.slider-button-right{
+    right: 10px;
+}
+.slider-content {
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+}
+#mySlider{
+    width: 100%;
+    height: auto;
+}
+.image1{
+    left:25px;
+    position: absolute;
+    top: -100px;
+    padding-top:50px; 
+height: 300px !important;
+width: 300px !important;
+
+}
+.image2{
+    top:10px;
+    left:140px;
+    position: relative;
+    height: 300px !important;
+    width: 300px !important;  
+}
+
+.slideHider h1{
+    font-family: Roboto, sans-serif;
+    width:300px;
+    color:rgb(36, 36, 36);
+    line-height: 28.4813px;
+    margin-right: 300px; 
+    background-color:#ffffff;
+    padding:6px;
+}
+.slideHider h2{
+    margin-top:5px;
+    font-size:48px;
+    font-family:"Open Sans", sans-serif;
+    width:500px;
+    color:#ffffff;
+    line-height: 22px;
+    font-weight: 200;
+    line-height: 47px;
+    margin-right: 350px;
+    background-color:#fd602c;
+    padding:18px;
+}
+.slideHider h3{
+    margin-top:5px;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    margin-bottom: 50px;
+}
+.aboutUs{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+}
+.aboutUs p{
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 8px;
+}
+.aboutUs h1{
+    margin-top: 3px;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.aboutUs .line{
+    margin-top: 15px;
+    width: 3%;
+    height: 2px;
+    background-color: black;
+}
+.ourHistory{
+    width: 47%;
+    height: 180px;
+    position: relative;
+    overflow: hidden;
+  
+
+}
+.ourHistory div{
+    width: 70%;
+    height: 100%;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.aboutusbottom{
+    display: flex;
+    
+    
+    
+}
+.about{
+    overflow: hidden;
+}
+.ourHistory div:first-child img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.ourHistory div:last-child{
+    background: #fd602ce7;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.ourHistory div:last-child h5{
+    color: white
+}
+.ourHistoryText{
+    width: 46%;
+    height: 180px;
+    margin-left: 7%;
+}
+.ourHistoryText a{
+    transition: all 0.2s ease-in-out;
+}
+.ourHistoryText a:hover{
+    color: #5a5959;
+    text-decoration: none;
+}
+.creative{
+    height: 700px;
+    margin-top: 100px;
+    
+}
+.creativeContainer{
+    position: relative;
+
+}
+
+.creative div:first-child{
+    background: url(../img/766.jpg);
+    background-position: center
+}
+.creative div:last-child{
+    background: #ddd;
+}
+
+.creativeOverlay{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    z-index: 1;
+    
+   width: 53%;
+   background: white;
+    
+}
+.creativeContentTop{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 55px;
+    line-height: 10px
+
+}
+.creativeContentTop p{
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 8px;
+    word-spacing: 4px;
+}
+.creativeContentTop h1{
+    margin-top: 3px;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-family: 'Dosis', sans-serif;
+    color: #333;
+}
+.lineCreative{
+    margin-top: 15px;
+    width: 6%;
+    height: 2px;
+    background-color: #333;
+}
+.creativeContentBody{
+    width: 85%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+.creativeContentBody ul li{
+    color: #727272;
+    font-size: 16px;
+    line-height: 35px;
+}
+.creativeContentBody ul li i {
+    font-size: 13px;
+    padding-right: 13px;
+}
+.creativeContentBody button{
+    height: 42px;
+    width: 124px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top: 20px;
+ }
+.creativeContentBody button:hover{
+    background: #333
+}
+.hasta{
+    margin-top: 80px;
+    height: 560px;
+}
+.hastaright{
+    background: url(../img/779.png);
+    background-position: center;
+    background-size: cover;
+
+}
+.hastaleft{
+    padding-top: 160px;
+}
+.hastaleft h1{
+    font-weight: 700
+}
+.hastaleft p{
+    color: #5a5959;
+    font-size: 14.5px;
+    margin-top: 17px;
+}
+.hastaleft div {
+    display: flex;
+    margin-top: 14px;
+}
+.hastaleft div div{
+    height: 60px;
+    width: 60px;
+    border:1px solid #ddd;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+.hastaleft button{
+    height: 41px;
+    width: 36%;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top: 40px;
+}
+.hastaleft button:hover{
+     background: #333;
+
+}
+.homevideo {
+    position: relative;
+    height: 400px;;
+}
+#myVideo {
+    position: absolute;;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    margin-top: 60px;
+  }
+  .videoContent{
+      width: 41%;
+      position: absolute;
+      top: 70%;
+      left: 31%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .videoContent button{
+      width: 70px;
+      height: 70px;
+      background: rgba(51, 51, 51, 0.712);
+      border: none;
+      border-radius: 100%;
+      margin-top: 35px;
+      color: white;
+  }
+  .videoContent button:hover{
+      background: rgba(119, 119, 119, 0.726)
+  }
+  .ourTeam{
+      margin-top: 291px;
+  }
+  .threeImage{
+      height: 500px;
+      position: relative;
+  }
+  .threeimgDiv{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+ 
+  }
+
+  .threeImage div img{
+      width: 94%;
+      height: 100%;
+      transition: all .3s ease-in-out
+  }
+  .threeImageBottom{
+      border: 1px solid #ddd;
+      border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 200px;
+       padding: 0px 10px;
+       padding-top: 30px;
+       position: absolute;
+       top: 300px;
+      background: white;
+      transition: all .3s ease-in-out;
+  }
+  .threeImageBottom p{
+      color: #727272;
+      margin-top: 20px;
+  }
+  .threeImage:hover img{
+      transform: scale(1.1, 1.1)
+  }
+  .threeImage:hover .threeImageBottom{
+      top: 250px;
+  }
+  .sevices{
+    height: 700px;
+    margin-top: 100px;
+    
+}
+.creativeContainer{
+    position: relative;
+}
+.sevices div:first-child{
+    background: url(../img/774.jpg);
+    background-position: center
+}
+.sevices div:last-child{
+    background: #ddd;
+}
+
+.creativeOverlay{
+    
+    
+   background: white;
+    
+}
+.servicesContentBody{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px
+}
+.servicesBodyContent{
+    width: 100%;
+    height:  300px;
+    display: flex;
+    justify-content: space-between
+}
+.servicesThreeIcon{
+    width: 32%;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.servicesThreeIcon div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+    
+}
+.servicesThreeIcon div i{
+    font-size: 39px;
+    transition: all .3s ease-in-out;
+    
+}
+.servicesThreeIcon:hover div{
+    background: #fd602c
+}
+.servicesThreeIcon:hover div i{
+    color: white;
+}
+.servicesThreeIcon:hover h4{
+    color: #fd602c;
+}
+.servicesThreeIcon h4{
+    font-family: 'Roboto', sans-serif;
+}
+.servicesContentBody button{
+    height: 42px;
+    width: 124px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    
+ }
+.servicesContentBody button:hover{
+    background: #333
+}
+.ourWorksContent {
+    width: 33.33%;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+
+}
+.ourWorksContent img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease-in-out;
+  ;
+}
+.ourWorksOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.9);
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: all .3s ease-in-out;
+}
+.ourWorksOverlay h6{
+    margin: 0;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    opacity: 0;
+}
+.ourWorksOverlay p{
+    padding-left: 30px;
+    color: gray;
+    opacity: 0
+}
+.ourWorksContent:hover img{
+    transform: scale(1.1, 1.1);
+}
+.ourWorksContent:hover .ourWorksOverlay {
+    opacity: 0.8;
+}
+.ourWorksContent:hover .ourWorksOverlay h6 {
+    opacity: 1;
+}
+.ourWorksContent:hover .ourWorksOverlay p {
+    opacity: 1;
+}
+.newsLetter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 55px 0px;
+
+}
+.newsLetter h1{
+    color: white;
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 5px;
+
+}
+.newsLetter p{
+    color: white;
+    margin-top: 10px;
+    
+    
+}
+.newsLetter div{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    margin-top: 45px;
+}
+.newsLetter div input{
+    width: 88%;
+    height: 100%;
+    background: #fd602c;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 5px 20px;
+    
+}
+.newsLetter div button{
+    width: 12%;
+    height: 100%;
+    background: #fff;
+    border: none;
+    font-size: 15px;
+}
+.newsLetter div button:hover{
+    background: #333;
+    color: white;
+}
+.numbers div:first-child{
+    display: flex;
+    justify-content: center;
+}
+.numbers h4{
+    color: #272727;
+    margin-top: 13px;
+}
+.numbers p{
+    color: #727272;
+    margin-top: 10px;
+}
+.numbers div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow:hidden;
+}
+.fourNumbers{
+    border-bottom: 1px solid #eee8e8;
+    padding-bottom: 70px;
+    overflow: hidden;
+}
+.blog div:first-child{
+    height: 400px;
+    position: relative;
+}
+.blog div img{
+    width: 100%;
+    height: 100%;
+}
+.blogFirstImg{
+    width: 23%;
+    height: 35%;
+    position: absolute;
+    top: 56%;
+    left: 68%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.blogFirstImg h2{
+    color: white;
+    margin: 0;
+}
+.blogFirstImg p{
+    color: white;
+    margin-bottom: 5px;
+}
+.blogFirstImg i{
+    color: white;
+}
+.blogImgDecor{
+    height: 70px;
+    width: 50%;
+    position: absolute;
+    top: 91%;
+    left: 3%;
+}
+.blog h3{
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+.blog a{
+    color: #333;
+}
+.blog a:hover{
+    color: #333;
+    text-decoration: none;
+}
+.blog span{
+    color: #a5a2a2;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.blog div:last-child p{
+    margin-top: 27px;
+    color: #777;
+}
+.parallax{
+    height: 400px;
+    background-image: url(../img/776.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.parallax div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.parallax div p{
+    color: white;
+    margin: 0;
+    letter-spacing: 25px;
+    font-size: 20px;
+}
+.parallax div h1{
+    font-size: 90px;
+    margin: 0;
+    color: white;
+    line-height: 90px;
+}
+.parallax div button{
+    height: 42px;
+    width: 124px;;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top: 40px;
+    
+ }
+ .parallax div button:hover{
+    background: #333
+}
+.pricing{
+    
+    display: flex;
+    align-items: center;
+}
+.pricingCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.price{
+    display: flex;
+    margin-top: 10px;
+}
+.price span{
+    margin-top: 4px;
+}
+.price h4{
+    font-weight: 700
+}
+.price sup{
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 15px;
+
+}
+.pricingStandard1{
+    height: 550px;
+    border: 1px solid #ddd;
+    background: #f6f6f6
+}
+.pricingStandard2{
+    height: 550px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    background: #f6f6f6
+}
+.pricingStandard4{
+    height: 550px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    background: #f6f6f6
+}
+.pricingThird{
+    height: 580px;;
+    position: relative;
+}
+.pricingCard h3{
+    padding-top: 55px;
+}
+.pricingCard ul{
+    margin-top: 20px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+   
+}
+.pricingStandard ul li{
+    padding: 14px 0px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    color: #807d7d
+}
+.pricingThird ul li{
+    padding: 14px 0px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.pricingStandard button{
+    margin-top: 25px;
+    height: 38px;
+    width: 124px;
+    border-radius: 22px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    
+ }
+.pricingStandard button:hover{
+    background: #333
+}
+.pricingThird button{
+    margin-top: 30px;
+    background: white;;
+    height: 38px;
+    width: 124px;;
+    border-radius: 22px;
+    border: none;
+    color: #333;
+    transition: all .2s ease-in-out;
+    
+ }
+.pricingThird button:hover{
+    background: #333;
+    color: white;
+}
+.pricingThird div img{
+    position: absolute;
+    top: -2%;
+    right: -5%;
+    z-index: 1
+}
+.clientsBg{
+    height: 500px;
+    background: url(../img/778.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.clientOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+.clientSlide{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    
+}
+.clientSlide1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:-100%;
+    transition: all .6s ease-in-out;
+}
+
+.clientSlide2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:100%;
+    transition: all .6s ease-in-out;
+}
+.active1{
+    left: 0;
+}
+.active2{
+    left: 0;
+}
+.clientSliderClick{
+    width: 7%;
+    height: 5%;
+   
+    position: absolute;
+    top: 60%;
+    left: 47%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.clientSliderClick .click1{
+    width: 23%;
+    height: 100%;
+    background: #333;
+    border-radius: 100%;
+}
+.clientSliderClick .click2{
+    width: 23%;
+    height: 100%;
+    background: #727272;
+    border-radius: 100%;
+}
+.clientSliderClick span:hover{
+    background: #727272;
+}
+.clientLogo{
+    padding: 30px 0px;
+}
+.clientLogo div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portfolioStyle{
+    padding: 35px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.portfolioStyle div:first-child{
+    width: 73%;
+}
+.portfolioStyle div:first-child h4{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400
+}
+.portfolioStyle div:first-child p{
+    color: white;
+}
+.portfolioStyle div:last-child{
+    width: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;;
+}
+.portfolioStyle div:last-child button{
+    padding: 12px 60px;
+    background: #fd602c;
+    border: 1px solid white;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+.portfolioStyle div:last-child button:hover{
+    background: white;
+    color: #272727;
+}
+.footerFirstCol p{
+    color: #727272;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footerFirstCol ul li{
+    color: #727272;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.footerFirstCol ul li span{
+    margin-left: 8px;
+}
+#logo{
+    padding-bottom: 12px;
+}
+.footLine{
+    width: 10%;
+    height: 3px;
+    background: white;
+}
+.footerSecondCol h3{
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footerSecondColImg div:first-child{
+    width: 33%;
+    height: 100%;
+    
+}
+.footerSecondColImg div img{
+    width: 90%;
+    height: 75%;
+    border-radius: 100%;
+
+}
+.footerSecondColImg div:last-child{
+    width: 63%;
+    height: 100%;
+}
+.footerSecondColImg div:last-child h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg div:last-child p{
+    color: #727272;
+    margin: 0;
+}
+.footerSecondColImg div:last-child small{
+    color: #727272;
+}
+.footerSecondColImg1{
+    border-bottom: 1px solid #727272;
+    margin-top: 40px;
+}
+.footerSecondColImg2{
+    margin-top: 20px;
+}
+.footerThirdColTop h3{
+    color: white;
+    font-weight: 400;
+}
+.footerThirdCol{
+    width: 100%;
+    height: 35px;
+    display: flex
+}
+footer button{
+    color: #727272;
+    border: 1px solid #727272;
+    background: black;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+footer button:hover{
+    border: 1px solid #fd602c;
+    color: #fd602c
+}
+.animationButton{
+    width: 40%;
+}
+.artButton{
+    width: 21%;
+    margin-left: 10px;
+}
+.photoButton{
+    width: 47%;
+    
+}
+.designButton{
+    width: 35%;
+    margin-left: 10px;
+    border: 1px solid #fd602c;
+    color: #fd602c;
+}
+.resposiveButton{
+    width: 42%;
+    
+}
+.developButton{
+    width: 38%;
+    margin-left: 10px;
+   
+}
+.brandingButton{
+    width: 38%;
+}
+.cleanButton{
+    width: 34%;
+    margin-left: 10px;
+}
+.footerFourthCol h3{
+    color: white;
+    font-weight: 400;
+}
+.footerFourthCol ul{
+    margin-top: 35px;
+}
+.footerFourthCol ul li{
+    padding-bottom: 10px;
+}
+.footerFourthCol ul li a{
+    color: #727272;
+    padding-left: 5px;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+}
+.footerFourthCol ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerPadding{
+    padding-top:70px;
+    padding-bottom: 30px;
+}
+.footerBottomBg{
+    background-color: #1a1a1a;
+}
+.footerIcon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footerIcon div{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.footerIcon div i {
+    transition: all .2s ease-in-out;
+}
+.footerIcon div:hover{
+    background: #fd602c;
+   
+}
+.footerIcon div:hover i{
+    color: white;
+}
+.footbottomRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footBasket{
+    background: #fd602c !important;
+}
+.footBasket i{
+    color: white;
+}
+.footbottomRow p{
+    margin-top: 60px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1509px){
+    .creativeOverlay{
+        top: 5%;
+    }
+    .videoContent{
+        top: 50%;
+    }
+}
+@media screen and (max-width:1276px){
+    .creativeContentBody ul li{
+        font-size: 14px;
+        line-height: 30px
+    }
+    .creativeContentBody{
+        margin-top:0px;
+    margin-bottom: 25px;
+    }
+    .creativeContentTop p{
+        font-size: 12px;
+    }
+    .videoContent{
+        top: 30%;
+    }
+}
+@media screen and (max-width: 1078px){
+    .servicesThreeIcon{
+        width: 22%
+    }
+    .servicesThreeIcon p{
+        font-size: 10px;
+    }
+    .servicesThreeIcon h4{
+        font-size: 15px;
+    }
+    .newsLetter div button{
+        font-size: 10px;
+    }
+    .newsLetter div{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header-bottom ul {
+        display: none;
+    }
+    .navIcon{
+        display: block;
+    }
+    .creativeContentBody ul li{
+        font-size: 10px;
+        line-height: 20px
+    }
+    .hasta{
+        height: 800px;
+    }
+    .hastaleft{
+        padding: 0px;
+        height: 300px;
+    }
+    .hastaright{
+        height: 450px;
+    }
+    .videoContent button{
+        width: 50px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .videoContent h1{
+        font-size: 10px;
+    }
+    .servicesThreeIcon{
+        width: 17%
+    }
+    .servicesThreeIcon div{
+        width: 50px;
+        height: 50px;;
+    }
+    .servicesThreeIcon div i{
+        font-size: 20px;
+    }
+    .ourWorksContent{
+        width: 100%
+    }
+    .newsLetter div button{
+        font-size: 7px;
+    }
+    .parallax div h1{
+        font-size: 50px;
+    }
+    .clientSliderClick{
+        margin-top: 65px;
+    }
+    .portfolioStyle{
+        width: 80%;
+    }
+    .portfolioStyle div:first-child h4{
+        font-size: 12px;
+    }
+    .portfolioStyle div:first-child p{
+        font-size: 7px;
+    }
+   
+    .portfolioStyle div:last-child button{
+        padding: 2px 35px;
+        margin-left: 20px;
+    }
+    .footerIcon{
+        width: 50%;
+    }
+    
+}
+@media screen and(max-width:400px){
+    .videoContent{
+        left: 60%;
+    }
+    .servicesThreeIcon{
+        width: 13%
+    }
+    .servicesThreeIcon div{
+        width: 40px;
+        height: 40px;;
+    }
+    .servicesThreeIcon div i{
+        font-size: 15px;
+    }
+    .servicesThreeIcon p{
+        font-size: 7px;
+    }
+    .servicesThreeIcon h4{
+        font-size: 12px;
+    }
+    .newsLetter div button{
+        font-size: 3px;
+    }
+    
+}
+
+
+
+
+
+
+

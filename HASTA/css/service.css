@@ -1,0 +1,723 @@
+.backgroundorange{
+    background: #fd602c
+}
+.backgroundBlack{
+    background: black;
+}
+.colororange{
+    color: #fd602c;
+}
+.colorgray{
+    color: #8d8c8c;
+}
+.backgroundGray{
+    background-color: #f6f6f6;
+}
+
+.header-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.header-top ul{
+    display: flex;
+    margin: 0;
+
+}
+.header-top p{
+    color: white;
+}
+.header-top ul li{
+    padding: 0px 8px;
+}
+.header-top ul li a{
+    color: #8d8c8c;
+    transition: all 0.2s;
+}
+.header-top ul li a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top ul li a i{
+    font-size: 14px;
+    color: #8d8c8c;
+    transition: all .3s ease-in-out;
+}
+.header-top ul li a i:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+.header-top p{
+    margin: 0;
+    color: #8d8c8c;
+}
+.border-bottom{
+    border-bottom: 1px solid #efefef
+}
+.navIcon{
+    color: #5a5959;
+    font-size: 20px;
+    display: none;
+}
+
+#register{
+    border-left: 1px solid #8d8c8c;;
+    border-right: 1px solid  #8d8c8c;;
+
+}
+#login a{
+    text-decoration-color: 1px solid white;
+}
+.logo{
+    height: 80px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 53%;
+    width: 100%;
+    cursor: pointer;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-bottom ul{
+    display: flex;
+    padding-right: 15px;
+    margin: 0;
+}
+.header-bottom ul li{
+    padding: 0px 10px;
+}
+.header-bottom ul li a{
+    color: #777;
+}
+.header-bottom ul li a:hover{
+    color: #fd602c;
+    text-decoration: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+ 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+.dropdown-content a:hover {
+      background-color: #f1f1f1
+}
+  
+ 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.weAreHasta{
+    height: 250px;
+    background-image: url(../img/header-img.jpg);
+   
+  background-size: cover;
+}
+.weAreHasta div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weAreHasta div h3{
+    color: white;
+    margin: 0;
+  
+   font-weight: 700
+}
+.weAreHasta div h6{
+  font-size: 18px;
+    margin: 0;
+    color: white;
+    line-height: 37px;
+}
+.aboutStyle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+.aboutStyle h3{
+    font-weight: normal;
+}
+.aboutStyle ul{
+    display: flex;
+    margin: 0;
+    
+}
+.aboutStyle ul li a{
+    color: #161616;
+    text-decoration: none;
+}
+
+.orangeh4 h4{
+    font-weight: 300;
+    padding: 56px 135px;
+}
+.responsive button{
+    background: white;
+    padding: 10px 25px;
+    border: 1px solid #e0e0e0;
+    transition: all .2s ease-in-out;
+}
+.responsive button:hover{
+    color: #fd602c;
+}
+.responsive button:focus{
+    color: #fd602c;
+}
+
+
+.serviceSlider{
+    width: 100%;
+    margin-bottom: 400px;
+    position: relative;
+}
+.Multipurpose{
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.MultipurposeLeft{
+    width: 48%;
+    
+    
+
+}
+.MultipurposeRight{
+    width: 48%;
+   
+    
+
+}
+.Multipurpose div:first-child img{
+    width: 100%;
+    height: 100%;
+}
+.MultipurposeRight div{
+    width: 100%;
+    height: 42px;
+    margin-top: 35px;
+}
+.MultipurposeRight h2{
+    font-weight: 400;
+}
+.MultipurposeRight div button{
+    padding: 0px 25px;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+.MultipurposeBtn1{
+    background: white;
+    border: 1px solid #e0e0e0;
+}
+.MultipurposeBtn1:hover{
+    color: white;
+    background: #161616;
+}
+.MultipurposeBtn2{
+    background: white;
+    border: 1px solid #fd602c;
+    color: #fd602c;
+}
+.MultipurposeBtn2:hover{
+    color: white;
+    background: #fd602c;
+}
+.MultipurposeRight ul li {
+    padding: 7px 0px;
+}
+.support{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position:absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.support h2{
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.support p{
+    color: #777;
+    font-size: 15px;
+    
+}
+@keyframes tab-opacity {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.serviceSlider .tab-content{
+    animation: tab-opacity 0.4s;
+}
+
+.alo{
+    display: none;
+}
+.sixCard {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.sixCard div:first-child{
+    height: 67px;
+    width: 18%;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sixCard div:first-child i{
+    font-size: 22px;
+}
+.sixCard div:last-child{
+    width: 73%;
+    height: 100%;;
+}
+.sixCard div:last-child h4{
+    font-weight: 300;
+}
+.sixCard div:last-child p{
+    color: #772277
+}
+.parallax{
+    height: 400px;
+    background-image: url(../img/parallax-bg1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.parallaxoverlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0.808);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.parallaxoverlay div{
+    width: 55%;
+}
+.parallax div p{
+    color: white;
+    margin: 0;
+   
+    font-size: 16px;
+}
+.parallax div p span{
+    color: #fd602c;
+}
+.parallax div h1{
+    font-size: 50px;
+    margin: 0;
+    color: white;
+    line-height: 90px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.parallax div button{
+    height: 42px;
+    width: 18%;
+   
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+    margin-top: 40px;
+    
+ }
+ .parallax div button:hover{
+    background: white;
+    color: #161616;
+}
+.serviceThreeDiv{
+    height: 400px;
+}
+.serviceThreeDiv div:first-child{
+    height: 45%;
+    width: 100%;
+}
+.serviceThreeDiv div:first-child img{
+    width: 100%;
+    height: 100%;
+}
+.serviceThreeDiv div:last-child{
+    height: 55%;
+    width: 100%;
+    padding-top: 17px;
+}
+.serviceThreeDiv div:last-child h4{
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.serviceThreeDiv div:last-child p{
+    font-size: 15px;
+    color: #727272;
+    margin-bottom: 25px;
+}
+.serviceThreeDiv div:last-child button{
+    padding: 7px 19px;
+    color: white;
+    background: #fd602c;
+    border: none;
+    transition: all .3s ease-in-out;
+}
+.serviceThreeDiv div:last-child button:hover{
+    background: #1a1a1a;
+}
+.serviceThreeCard{
+    width: 30.7%;
+   
+    border: 1px solid #ddd;
+    padding: 25px 35px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.serviceThreeCard h4{
+    font-weight: 400;
+}
+.serviceThreeCard p{
+    color: #727272;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.serviceThreeCard a{
+    margin-top: 20px;
+    color: #fd602c;
+    transition: all .3s ease-in-out;
+}
+.serviceThreeCard a:hover{
+    color: #23527c;
+    text-decoration: none;
+}
+
+.serviceThreeCard a span{
+    margin-left: 10px;
+}
+.footerFirstCol p{
+    color: #727272;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.footerFirstCol ul li{
+    color: #727272;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.footerFirstCol ul li span{
+    margin-left: 8px;
+}
+#logo{
+    padding-bottom: 12px;
+}
+.footLine{
+    width: 10%;
+    height: 3px;
+    background: white;
+}
+.footerSecondCol h3{
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footerSecondColImg div:first-child{
+    width: 33%;
+    height: 100%;
+    
+}
+.footerSecondColImg div img{
+    width: 90%;
+    height: 75%;
+    border-radius: 100%;
+
+}
+.footerSecondColImg div:last-child{
+    width: 63%;
+    height: 100%;
+}
+.footerSecondColImg div:last-child h5{
+    font-size: 18px;
+    color: white;
+    font-weight: 400
+}
+.footerSecondColImg div:last-child p{
+    color: #727272;
+    margin: 0;
+}
+.footerSecondColImg div:last-child small{
+    color: #727272;
+}
+.footerSecondColImg1{
+    border-bottom: 1px solid #727272;
+    margin-top: 40px;
+}
+.footerSecondColImg2{
+    margin-top: 20px;
+}
+.footerThirdColTop h3{
+    color: white;
+    font-weight: 400;
+}
+.footerThirdCol{
+    width: 100%;
+    height: 35px;
+    display: flex
+}
+footer button{
+    color: #727272;
+    border: 1px solid #727272;
+    background: black;
+    height: 100%;
+    transition: all .3s ease-in-out;
+}
+footer button:hover{
+    border: 1px solid #fd602c;
+    color: #fd602c
+}
+.animationButton{
+    width: 40%;
+}
+.artButton{
+    width: 21%;
+    margin-left: 10px;
+}
+.photoButton{
+    width: 47%;
+    
+}
+.designButton{
+    width: 35%;
+    margin-left: 10px;
+    border: 1px solid #fd602c;
+    color: #fd602c;
+}
+.resposiveButton{
+    width: 42%;
+    
+}
+.developButton{
+    width: 38%;
+    margin-left: 10px;
+   
+}
+.brandingButton{
+    width: 38%;
+}
+.cleanButton{
+    width: 34%;
+    margin-left: 10px;
+}
+.footerFourthCol h3{
+    color: white;
+    font-weight: 400;
+}
+.footerFourthCol ul{
+    margin-top: 35px;
+}
+.footerFourthCol ul li{
+    padding-bottom: 10px;
+}
+.footerFourthCol ul li a{
+    color: #727272;
+    padding-left: 5px;
+    transition: all .2s ease-in-out;
+    font-size: 15px;
+}
+.footerFourthCol ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
+.footerPadding{
+    padding-top:70px;
+    padding-bottom: 30px;
+}
+.footerBottomBg{
+    background-color: #1a1a1a;
+}
+.footerIcon{
+    width: 30%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+.footerIcon div{
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .2s ease-in-out;
+}
+.footerIcon div i {
+    transition: all .2s ease-in-out;
+}
+.footerIcon div:hover{
+    background: #fd602c;
+   
+}
+.footerIcon div:hover i{
+    color: white;
+}
+.footbottomRow{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footBasket{
+    background: #fd602c !important;
+}
+.footBasket i{
+    color: white;
+}
+.footbottomRow p{
+    margin-top: 60px;
+    color: #727272;
+    margin-bottom: 60px;
+}
+
+
+@media screen and (max-width: 1076px){
+    .serviceSlider{
+        margin-bottom: 500px;
+    }
+    .MultipurposeRight ul li {
+        padding: 4px 0px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .serviceSlider{
+        margin-bottom: 550px;
+    }
+    .parallax div h1{
+        font-size: 40px;
+        padding-bottom: 10px;
+    }
+    .parallax div button{
+        margin-top: 20px;
+    }
+    .serviceThreeCard{
+        width: 60%;
+        margin: 20px auto;
+        
+    }
+}
+    
+
+@media screen and (max-width: 768px){
+    .header-bottom ul {
+        display: none;
+    }
+    .navIcon{
+        display: block;
+    }
+    .footerIcon{
+        width: 60%;
+    }
+    .MultipurposeLeft{
+        width: 100%;
+    }
+    .MultipurposeRight{
+        width: 100%;
+    }
+    .MultipurposeRight ul li {
+        padding: 3px 0px;
+    }
+    
+    .serviceSlider{
+        margin-bottom: 600px;
+    }
+    .parallax div h1{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+    .parallax div p{
+        font-size: 11px;
+        
+    }
+    .parallax div button{
+        margin-top: 20px;
+    }
+    .serviceThreeCard{
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+   
+}  
+@media screen and (max-width: 525px){
+    .parallax div h1{
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .parallax div p{
+        font-size: 8px;
+        
+    }
+    .parallax div button{
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width: 500px){
+    .serviceSlider{
+        margin-bottom: 750px;
+    }
+}
+
